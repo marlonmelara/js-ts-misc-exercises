@@ -1,0 +1,9 @@
+﻿# Ejercicios de Lógica
+
+## Ejercicio 1
+
+Crea un programa que pase dos números y que nos diga cuál es el mayor, el menor y si son iguales.
+
+## Ejercicio 2
+
+Utilizando un bucle, mostrar la suma y la media de los número introducidos hasta introducir un número negativo y ahí mostrar el resultado.
