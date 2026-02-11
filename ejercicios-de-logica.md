@@ -7,3 +7,7 @@ Crea un programa que pase dos números y que nos diga cuál es el mayor, el meno
 ## Ejercicio 2
 
 Utilizando un bucle, mostrar la suma y la media de los número introducidos hasta introducir un número negativo y ahí mostrar el resultado.
+
+## Ejercicio 3
+
+Hacer un programa que muestre todos los números entre dos números introducidos por el usuario
