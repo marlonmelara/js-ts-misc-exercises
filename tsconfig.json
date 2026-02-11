@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES6" /* Versión de JS a la que quieres llegar */,
+    "module": "commonjs" /* Sistema de módulos estándar para Node.js */,
+    "outDir": "./out" /* Aquí se guardará el JS compilado */,
+    "rootDir": "./ts" /* Aquí es donde tú escribes tus .ts */,
+    "strict": true /* Activa el 'Modo Experto' para que TS sea exigente */,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["ts/**/*"] /* Solo compilará lo que esté en la carpeta /ts */
+}
