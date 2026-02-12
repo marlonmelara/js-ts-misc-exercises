@@ -1,31 +1,31 @@
 // Ejercicio 5
 // Mostrar todos los divisores de un número dado
 
-function factoringCalculator(a) {
-  const numA = Number(a);
+function getFactors(value) {
+  const num = Number(value);
 
-  if (isNaN(numA) || numA <= 0 || !Number.isInteger(numA)) {
+  if (isNaN(num) || num <= 0 || !Number.isInteger(num)) {
     throw new Error('El valor debe ser un número entero mayor a cero');
   }
 
-  const factorNumbers = [];
+  const factors = [];
 
-  for (let i = 1; i <= numA; i++) {
-    if (numA % i === 0) {
-      factorNumbers.push(i);
+  for (let i = 1; i <= num; i++) {
+    if (num % i === 0) {
+      factors.push(i);
     }
   }
 
-  return factorNumbers;
+  return factors;
 }
 
-function displayResult(a) {
+function displayFactoring(input) {
   try {
-    const result = factoringCalculator(a);
-    console.log(`Los factores de ${a} son ${result.join(', ')}`);
+    const result = getFactors(input);
+    console.log(`Los factores de ${input} son ${result.join(', ')}`);
   } catch (error) {
     console.error(`Hubo un problema: ${error.message}`);
   }
 }
 
-displayResult(100);
+displayFactoring('100');

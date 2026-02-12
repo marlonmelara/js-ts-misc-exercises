@@ -15,33 +15,33 @@ Mostrar todos los divisores de un número dado
 ```text
 INICIO
 
-  FUNCIÓN factoringCalculator(numA)
-    CONVERTIR numA a números
+  FUNCIÓN getFactors(value)
+    CONVERTIR value a números
 
-    SI NumA NO es un número O si el número <= 0 O no es entero ENTONCES
+    SI Num NO es un número O si el número <= 0 O no es entero ENTONCES
       LANZAR Error "El valor debe ser un número entero mayor a cero"
     FIN SI
 
-    CREAR array vacío factorNumbers
+    CREAR array vacío factors
 
     // Llenar la lista
-    PARA i = 1 DESDE inicio HASTA NumA SUMAR 1 HACER
-      SI el residuo de NumA entre i es igual a 0 ENTONCES
-        GUARDAR i en el array factorNumbers
+    PARA i = 1 DESDE inicio HASTA Num SUMAR 1 HACER
+      SI el residuo de Num entre i es igual a 0 ENTONCES
+        GUARDAR i en el array factors
     FIN PARA
 
     RETORNAR factorNumbers
   FIN FUNCIÓN
 
-  FUNCIÓN displayResult(a)
+  FUNCIÓN displayFactoring(input)
     INTENTAR
-      resultado = LLAMAR factoringCalculator(a)
+      resultado = LLAMAR getFactors(input)
         MOSTRAR resultado
     CAPTURAR Error
       MOSTRAR mensaje del Error
   FIN FUNCIÓN
 
-  LLAMAR displayResult(20)
+  LLAMAR displayFactoring(100)
 
 FIN
 ```
