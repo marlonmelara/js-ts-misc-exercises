@@ -11,3 +11,7 @@ Utilizando un bucle, mostrar la suma y la media de los número introducidos hast
 ## Ejercicio 3
 
 Hacer un programa que muestre todos los números entre dos números introducidos por el usuario
+
+## Ejercicio 4
+
+Mostrar todos los números impares que hay entre dos números
