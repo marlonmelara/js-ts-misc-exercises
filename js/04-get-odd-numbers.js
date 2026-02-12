@@ -22,12 +22,6 @@ function getOddNumbers(a, b) {
   return oddNumbersResult;
 }
 
-// try {
-//   const result = getOddNumbers(15, 10);
-// } catch (error) {
-//   console.error(`Hubo un problema: ${error.message} `);
-// }
-
 function displayResult(a, b) {
   try {
     const result = getOddNumbers(a, b);
