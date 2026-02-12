@@ -8,7 +8,7 @@ function identifyNumber(a, b) {
   if (a > b) {
     return `${a} es mayor y ${b} es el menor`;
   } else if (b > a) {
-    return `${b} es mayor y ${a} es el mayor`;
+    return `${b} es mayor y ${a} es el menor`;
   } else {
     return 'Ambos números son iguales';
   }
