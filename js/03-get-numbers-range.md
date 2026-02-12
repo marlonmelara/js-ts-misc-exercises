@@ -1,4 +1,4 @@
-# PSEUDOCÓDIGO: Generador de Lista de Rango Numérico
+# PSEUDOCÓDIGO: Ejercicio 3 - Generador de Lista de Rango Numérico
 
 ## ENTRADA:
 

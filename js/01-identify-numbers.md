@@ -1,4 +1,6 @@
-# PSEUDOCÓDIGO: Identificador de Relación Numérica
+# PSEUDOCÓDIGO: Ejercicio 1 - Identificador de Relación Numérica
+
+Crea un programa que pase dos números y que nos diga cuál es el mayor, el menor y si son iguales.
 
 ## ENTRADA:
 

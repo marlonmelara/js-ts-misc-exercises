@@ -15,3 +15,7 @@ Hacer un programa que muestre todos los números entre dos números introducidos
 ## Ejercicio 4
 
 Mostrar todos los números impares que hay entre dos números
+
+## Ejercicio 5
+
+Mostrar todos los divisores de un número dado

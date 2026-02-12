@@ -1,4 +1,6 @@
-# PSEUDOCÓDIGO: Calculador de Suma y Media Progresiva
+# PSEUDOCÓDIGO: Ejercicio 2 - Calculador de Suma y Media Progresiva
+
+Utilizando un bucle, mostrar la suma y la media de los número introducidos hasta introducir un número negativo y ahí mostrar el resultado.
 
 ## ENTRADA:
 

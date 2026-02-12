@@ -1,6 +1,17 @@
-# Ejercicio 4
+# PSEUDOCÓDIGO: Ejercicio 4 - Obtener números impares en un rango
 
 Mostrar todos los números impares que hay entre dos números
+
+## ENTRADA:
+
+- NumeroA: Primer límite.
+- NumeroB: Segundo límite.
+
+## SALIDA:
+
+- Una lista con los números impares en un rango o un mensaje informativo.
+
+## LÓGICA:
 
 ```text
 INICIO
