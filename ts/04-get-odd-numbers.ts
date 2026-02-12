@@ -18,9 +18,12 @@ function getOddNumbers(a: number | string, b: number | string): number[] {
 
   const min = Math.min(numA, numB);
   const max = Math.max(numB, numA);
+
   const oddNumbersResult: number[] = [];
 
-  for (let i = min + 1; i < max; i++) {
+  const start = min + 1;
+
+  for (let i = start; i < max; i++) {
     if (i % 2 !== 0) {
       oddNumbersResult.push(i);
     }
@@ -46,4 +49,4 @@ function displayResult(a: number | string, b: number | string): void {
   }
 }
 
-displayResult(10, '20');
+displayResult('20', 10);

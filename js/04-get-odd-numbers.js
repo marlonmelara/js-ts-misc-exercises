@@ -11,9 +11,12 @@ function getOddNumbers(a, b) {
 
   const min = Math.min(numA, numB);
   const max = Math.max(numA, numB);
+
   const oddNumbersResult = [];
 
-  for (let i = min + 1; i < max; i++) {
+  const start = min + 1;
+
+  for (let i = start; i < max; i++) {
     if (i % 2 !== 0) {
       oddNumbersResult.push(i);
     }
@@ -35,4 +38,4 @@ function displayResult(a, b) {
   }
 }
 
-displayResult(10, 20);
+displayResult('20', 10);
