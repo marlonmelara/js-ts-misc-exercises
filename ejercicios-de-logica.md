@@ -24,3 +24,14 @@ Mostrar todos los divisores de un número dado
 
 1. Pide 6 números por pantalla y agregarlos a un array
 2. Mostrar el array en el cuerpo de la página y en la consola
+
+## Ejercicio 7
+
+Crea un array con al menos 5 elementos (pueden ser nombres de frutas, ciudades o tecnologías).
+Pide al usuario mediante un prompt que introduzca un número de índice para consultar.
+
+Validaciones:
+
+1. Comprobar si el dato introducido es un número.
+2. Comprobar que el número sea positivo y esté dentro del rango del array.
+3. Mostrar el valor correspondiente mediante un alert o un mensaje de error si no pasa las validaciones.
