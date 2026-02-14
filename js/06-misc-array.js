@@ -22,7 +22,7 @@ for (let i = 0; i < targetAmount; i++) {
 // 2. Mostrar el array en el cuerpo de la página y en la consola
 console.log('Contenido original:', listNumbers);
 
-let html = '<h2>Contenido del Array:</h3><ul>';
+let html = '<h1>Contenido del Array:</h1><ul>';
 
 listNumbers.forEach(number => {
   html += `<li>${number}</li>`;
