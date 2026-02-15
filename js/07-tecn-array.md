@@ -24,38 +24,36 @@ Validaciones:
 INICIO
 
   // Inicialización
-  ESTABLECER array technologies CON ["JavaScript", "Python", "Java", "C#", "C++"]
-  ESTABLECER arrLength A longitud de technologies
-  ESTABLECER selectedTech VACÍO
+  CREAR array technologies CON ["JavaScript", "Python", "Java", "C#", "C++"]
+  ESTABLECER arrLengthTech A longitud de technologies
+  ESTABLECER selectedTech vacío
   ESTABLECER validEntry A FALSO
 
   // Bloque 1: Bucle de captura y validación
   MIENTRAS validEntry ES FALSO HACER
+    LEER input "Introduce un número del 1 al " + arrLengthTech + " para elegir una tecnología:"
 
-    LEER input "Introduce un número del 1 al " + arrLength + ":"
-
-    // Validación 1: ¿Está vacío o es nulo?
-    SI input ES NULO O input ES VACÍO ENTONCES
-      MOSTRAR ALERTA "Error: No has ingresado nada."
-      SALTAR al inicio del bucle
+    // Validación 1: Datos vacíos o nulos
+    SI input ES NULO O input.trim() ES VACÍO ENTONCES
+        MOSTRAR ALERTA "Error: No has ingresado nada."
+        SALTAR al inicio del bucle
     FIN SI
 
-    CONVERTIR input A numericInput (Número entero)
+    CONVERTIR input A numericInput (Número)
 
-    // Validación 2: ¿Es un número entero y está en rango?
+    // 2. Validación: ¿Es un número entero y está en el rango?
     SI numericInput NO ES ENTERO ENTONCES
-      MOSTRAR ALERTA "Error: Ingresa un número válido."
-    SINO SI numericInput < 1 O numericInput > arrLength ENTONCES
-      MOSTRAR ALERTA "Error: El número debe estar entre 1 y " + arrLength + "."
+        MOSTRAR "Error: Ingresa un número válido."
+    SINO SI numericInput < 1 O numericInput > arrayLength ENTONCES
+        MOSTRAR "Error: Fuera de rango."
     SINO
-      ESTABLECER selectedTech A technologies[numericInput - 1]
-      ESTABLECER validEntry A VERDADERO
+        ESTABLECER selectedTech A technologies[numericInput - 1]
+        ESTABLECER validEntry A VERDADERO
     FIN SI
-
   FIN MIENTRAS
 
   // Bloque 2: Resultado final
-  MOSTRAR ALERTA "Has seleccionado: " + selectedTech
+  MOSTRAR ALERTA "Has seleccionado la tecnología: " + selectedTech
 
 FIN
 ```
