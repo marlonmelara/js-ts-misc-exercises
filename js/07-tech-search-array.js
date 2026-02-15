@@ -25,8 +25,7 @@ while (!validEntry) {
     alert(`Error: El número debe estar entre 1 y ${arrLengthTech}`);
   } else {
     // 3. Ajuste de índice (Human-friendly a 0-indexed)
-    const internalIndex = numericInput - 1;
-    selectedTech = technologies[internalIndex];
+    selectedTech = technologies[numericInput - 1];
     validEntry = true;
   }
 }
